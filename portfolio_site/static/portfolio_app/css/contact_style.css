@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "DyeLine";
+    src: url(fonts/DyeLine\ Regular.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Audrey";
+    src: url(fonts/Audrey-Normal.otf);
+    font-weight: normal;
+}
+
+html {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: rgb(25, 24, 27);
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: rgb(25, 24, 27);
+}
+
+.navbar-nav > li{
+    padding-right: 80px;
+}
+
+.bg-dark {
+    background: transparent !important;
+}
+
+#brand_name {
+    font-family: "Audrey";
+    font-size: 35px;
+}
+
+.h1_1 {
+    font-family: "DyeLine";
+    color: rgb(149, 175, 33);
+    font-size: 65px;
+}
+
+.footer-copyright {
+    color: whitesmoke;
+}
+
+.row{
+    margin-left: 6em;
+}
+
+.h1_1 {
+    font-size: 70px;
+}
+.h1_2 {
+    font-size: 20px;
+}
+
+.text-md-left {
+    margin-left: 6em;
+}
+
+.container {
+    max-width: 1700px;
+}
+
+@media (max-width: 900px) {
+    .navbar-nav > li{
+        padding-left: .45em;
+    }
+    .h1_1 {
+        font-size: 50px;
+    }
+    .h1_2 {
+        font-size: 20px;
+    }
+    .row{
+        margin-left: 0px;
+    }
+    .text-md-left {
+        margin-left: 0px;
+    }
+}
